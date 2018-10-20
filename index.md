@@ -274,6 +274,7 @@ public final void encode(final View view) {
     }
     Toast.makeText(this, encodedString, Toast.LENGTH_SHORT).show();
 }
+
 public final void decode(final View view) {
     String str = ((EditText)findViewById(R.id.decField)).getText().toString();
     byte[] decodedBytes = decodeBase58(str);
