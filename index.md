@@ -250,7 +250,7 @@ pusheen: unzip -l outputs/apk/debug/android_b58-debug.apk | grep libload-libs.so
 
 Here is a screenshot of the project:
 
-![Image of Cardano-Rust-Android Project Structure](https://hm999.github.io/cardano-rust-c-example-doc/images/project.jpg)
+![Image of Cardano-Rust-Android Project Structure](https://hm999.github.io/cardano-rust-c-example-doc/images/cardano-rust-android-project.png)
 
 We want to call our functions from the app. We declare the native functions and load the library in Java using this statement with the undecorated library name in MainActivity:
 
@@ -293,7 +293,7 @@ public final void decode(final View view) {
 
 That's about it. We run the app on a mobile, type something into the encode field, tap encode button – pops up the base58 text. Or type in base58 text, tap decode and it pops up the plain text.
 
-![Image of Cardano-Rust-Android Project App](https://hm999.github.io/cardano-rust-c-example-doc/images/app.jpg)
+![Image of Cardano-Rust-Android Project App](https://hm999.github.io/cardano-rust-c-example-doc/images/cardano-rust-android-app.png)
 
 Code is [here](https://github.com/HM999/cardano-rust-android-example), but with binaries and local config omitted. 
 
