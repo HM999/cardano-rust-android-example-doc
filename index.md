@@ -293,7 +293,7 @@ public final void decode(final View view) {
 
 That's about it. We run the app on a mobile, type something into the encode field, tap encode button – pops up the base58 text. Or type in base58 text, tap decode and it pops up the plain text.
 
-![Image of Cardano-Rust-Android Project App](https://hm999.github.io/cardano-rust-c-example-doc/images/cardano-rust-android-app.png)
+[Image of Cardano-Rust-Android Project App](https://raw.githubusercontent.com/HM999/cardano-rust-android-example-doc/master/images/cardano-rust-android-app.jpg)
 
 Code is [here](https://github.com/HM999/cardano-rust-android-example), but with binaries and local config omitted. 
 
