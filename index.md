@@ -250,7 +250,7 @@ pusheen: unzip -l outputs/apk/debug/android_b58-debug.apk | grep libload-libs.so
 
 Here is a screenshot of the project:
 
-![Image of Cardano-Rust-Android Project Structure](https://hm999.github.io/cardano-rust-c-example-doc/images/cardano-rust-android-project.png)
+![Image of Cardano-Rust-Android Project Structure](https://raw.githubusercontent.com/HM999/cardano-rust-android-example-doc/master/images/cardano-rust-android-project.png)
 
 We want to call our functions from the app. We declare the native functions and load the library in Java using this statement with the undecorated library name in MainActivity:
 
