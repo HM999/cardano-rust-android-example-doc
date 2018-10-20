@@ -4,6 +4,8 @@ Following on from the previous post about [calling Cardano-Rust code from C](htt
 
 We are going to call the same Rust functions from an Android app.
 
+Source code discussed below is [here](https://github.com/HM999/cardano-rust-android-example), but with binaries and local config omitted. 
+
 Android allows you to call C library functions from Java using JNI. We have already taken care of the Rust-to-C part, by making the special bridging functions, as seen in the previous post. We now need to do the Java-to-C part and make an app.
 
 We will use Android Studio to make the app that calls the Rust functions. Several bits and pieces are required, which are installable from within studio: NDK, Cmake, LLDB. The NDK (native development kit) contains compilers for the different Android hardware platforms, when installing, note the location. You will also see it later specified in the local.properties file under "Gradle Scripts" once you make a project.
